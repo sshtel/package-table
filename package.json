@@ -1,0 +1,30 @@
+{
+  "name": "package-table",
+  "version": "1.0.0",
+  "description": "Table view for npm packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc ./src/public/npm-package-table/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sshtel/package-table.git"
+  },
+  "author": "Steve Song <sshtel@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sshtel/package-table/issues"
+  },
+  "homepage": "https://github.com/sshtel/package-table#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.3.1",
+    "@types/lodash": "^4.14.108",
+    "requirejs": "^2.3.5",
+    "typescript": "^2.8.3",
+    "webpack-cli": "^2.1.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "sources": [
+        {
+            "url": "https://raw.githubusercontent.com/spearhead-ea/island/master/package.json"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/spearhead-ea/island-keeper/master/package.json"
+        }
+    ]
+}
